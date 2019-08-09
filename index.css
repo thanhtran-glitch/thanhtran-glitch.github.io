@@ -1,0 +1,724 @@
+/* body {
+    background-image: url(../images/background_image.jpg);
+    background-size: 100% 
+} */
+
+#container {
+    width: 100%;
+    height: fit-content;
+    background-color: aqua;
+}
+
+#home {
+    background-image: linear-gradient(
+        rgba(194, 194, 194, 0.7), 
+        rgba(255, 255, 255, 0.8)
+      ),url(../images/banner_original.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top:20px;
+}
+
+#navbar {
+    /* margin-top: 20px; */
+    width:100%;
+    height: 50px;
+    background-color: #cd1111;
+
+}
+
+#banner {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#coverimage {
+    position: absolute;
+    left: 40%;
+    top: 7%;
+    height: 80%;
+    width: 58%;
+    background-image: url(../images/banner_original.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.red-circle {
+    position: absolute;
+    background-image: url(../images/shape/red-circle.png);
+    opacity: 0.3; 
+}
+.banner-decorate {
+    left: 25%;
+    top: 17%;
+    width: 35%;
+    height: 70%;
+    background-size: 500px 482px;
+    background-repeat: no-repeat;
+}
+
+.about-decorate { 
+    left: 80%;
+    top: 3%;
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.workshop-decorate {
+    left: 55%;
+    top: 45%;
+    width: 40%;
+    height: 52%;
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+    
+}
+
+.workshop-decorate-2 {
+    left: 15%;
+    top: 44%;
+    width: 400px;
+    height: 53%;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    opacity:0.15;
+    margin:auto;
+    text-align: center;
+    color: black;
+
+}
+
+#name-text{
+   left: 3%;
+   top: 40%;
+   width: 45%;
+   height: 20%;
+   background-color: black; 
+   position: absolute;
+   color: white;
+}
+.section {
+    width:100%;
+    position: relative;
+}
+.about {
+    height: 100%;
+}
+
+.portfolio {
+    height: 300%;
+}
+
+.workshop {
+    height: 100%;  
+}
+
+.registration {
+    height: 100%;
+}
+
+#about-image {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border: 3px solid black;
+    width: 33%;
+    height: 55%;
+    background-image: url(../images/about_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-tag{
+    height: fit-content;
+    background-color: #cd1111; 
+    color: white;
+ }
+
+ .section-about {
+    position: absolute;
+    width: 200px;
+    left: 75%;
+    top: 13%;
+ }
+
+ .section-workshop {
+    width: 300px;
+    left: 40%;
+    top: 2%;  
+    position: center;
+    margin: auto;
+ }
+
+ #introduce {
+    left: 50%;
+    top: 35%;
+    width: 600px;
+    height: fit-content;
+    position: absolute;
+ }
+ 
+ .introduce-text {
+     font-size: 30px;
+     font-weight: 100;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ #sort-by {
+    left: 40%;
+    top: 1%;
+    width: 600px;
+    height: fit-content;
+    position: absolute;
+ }
+
+ #middle-tag {
+     width:100%;
+     top:2%;
+     height: fit-content;
+     position: absolute;
+     text-align: center;
+ }
+
+ .section-portfolio {
+    width: 300px;
+    left: 10%;
+    top: 1%;
+    position: absolute;
+ }
+
+ .row-1 {
+     width: 70%;
+     position: absolute;
+     left: 15%;
+     top: 7%;
+  
+ }
+
+ .row-2 {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 22%;
+
+}
+
+.row-3 {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 39%;
+}
+
+.row-4 {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 56%;
+}
+
+.row-5 {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 73%;
+}
+
+#workshop-background {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 12%;
+    height: 85%;
+    background-image: url(../images/background-workshop-original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(5px 5px 4px #b1b1b1);
+
+}
+
+#workshop-bluredbackground {
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    background-image: url(../images/background-workshop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+
+    
+}
+
+#workshop-header {
+    position: relative;
+    height: 130px;
+    left: 5%;
+    width:90%;
+    top: 12%;
+    background-color: #ffffff93;
+    text-align: center;
+    
+}
+
+#workshop-navbar {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+}
+
+#conception {
+    width: 25%;
+    height: 25px;
+    color: black;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    padding: auto;
+    float: left;
+}
+
+#planning {
+    width: 25%;
+    height: 25px;
+    color: black;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    padding: auto; 
+    float: left;
+}
+
+#lighting {
+    width: 25%;
+    height: 25px;
+    color: black;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    padding: auto; 
+    float: left;
+}
+
+#blend-and-retouch {
+    width: 25%;
+    height: 25px;
+    color: black;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    padding: auto; 
+    float: left;
+}
+
+
+#workshop-content-conception, #workshop-content-planning, #workshop-content-lighting, #workshop-content-blendandretouch {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    height: 60%;
+    background-color: #ffffff79;
+    left: 50%;
+    border-radius: 5px;
+}
+
+
+
+.workshop-content-header {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: fit-content;
+    height:fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 70;
+    font-size: 35px;
+    letter-spacing: 7px;
+    color: rgb(0, 0, 0);  
+}
+
+#registration-cover {
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    height: 60%;
+    top: 20%;
+    background-image: url(../images/tran.jpg);
+    background-size: cover;
+    filter: drop-shadow(5px 5px 5px black);
+    background-repeat: no-repeat;
+}
+#registration-cover-layout-2 {
+    width: 30%;
+    position: absolute;
+    left: 8%;
+    height: 60%;
+    top: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    background-color:#8B1900;
+    opacity: 0.2;    
+
+}
+
+ul li {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200; 
+    margin-bottom: 20px;
+}
+
+
+#registration-cover-bottom {
+    position: absolute;
+    left: 20%;
+    top: 82%;
+    border-left: 200px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 130px solid #8B1900;
+    filter: drop-shadow(5px 5px 5px black);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.registration-decorate {
+    left: 2%;
+    top: 80%;
+    width: 120px;
+    height: 120px;
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    opacity:0.35;
+    margin:auto;
+    text-align: center;   
+
+}
+
+.registration-decorate-2{
+    width: 8%;
+    position: absolute;
+    left: 38%;
+    height: 20%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-color:#8B1900;
+    animation: rotation 4s infinite linear;
+}
+
+
+#registration-decorate-3{
+    width: 5%;
+    position: absolute;
+    left: 5%;
+    height: 10%;
+    top: 15%;
+    background-repeat: no-repeat;
+    background-color:#8B1900;
+    transform: rotate(60deg);
+    opacity:0.5;
+    filter: drop-shadow(3px 2px 2px black);
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#registration-decorate-4{
+    width: 5%;
+    position: absolute;
+    left: 5%;
+    height: 10%;
+    top: 80%;
+    background-repeat: no-repeat;
+    background-color:#8B1900;
+    transform: rotate(10deg);
+    filter: drop-shadow(3px 2px 2px black);
+}
+/* #registration-cover-left {
+    position: absolute;
+  
+    top: 50%;
+    border-left: 90px solid transparent;
+    border-right: 700px solid transparent;
+    border-bottom: 130px solid #8B1900;
+    filter: drop-shadow(5px 5px 5px black);
+    background-repeat: no-repeat;
+transform: rotate(-40deg);
+  opacity: 0.5;
+} */
+
+#registration-form {
+    position: absolute;
+    width: 45%;
+    height: 600px;
+    left: 50%;
+    top: 10%;
+  
+    margin-top: 30px;
+}
+
+.form-container {
+    padding: 10px;
+}
+
+#firstname {
+    width: 40%;
+    padding: 7px;
+    margin: 5px 0 22px 100px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+#lastname {
+    width: 32%;
+    padding: 7px;
+    margin: 5px 0 22px 10px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+    
+}
+
+#email {
+    width: 74%;
+    padding: 7px;
+    margin: 5px 0 22px 100px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+#phone {
+    width: 60%;
+    padding: 7px;
+    margin: 5px 0 22px 80px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+#address {
+    width: 60%;
+    padding: 7px;
+    margin: 5px 0 22px 76px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+#birthday-day {
+        width: 14%;
+        padding: 7px;
+        margin: 5px 0 22px 74px;
+        display: inline-block;
+        border: 1px solid black;
+        background: #fffefe;
+}
+
+
+#birthday-month {
+    width: 14%;
+    padding: 7px;
+    margin: 5px 0 10px 30px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+
+#birthday-year {
+    width: 14%;
+    padding: 7px;
+    margin: 5px 0 10px 30px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+#course{
+    width: 75%;
+    padding: 7px;
+    margin: 5px 0 10px 34px;
+    display: inline-block;
+    border: 1px solid black;
+    background: #fffefe;
+}
+
+.registerbtn {
+    margin-left:45%;
+    margin-top: 20px;
+    width: 150px;;
+    height: 50px;
+    background-color: #8B1900;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#footer-section {
+    width:100%;
+    height: 300px;
+    background-color: #292929;
+}
+
+#begin-footer {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#content-footer {
+    width:100%;
+    height: 200px;
+    /* background-color: #414040; */
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    
+}
+
+#end-footer {
+    width:100%;
+    height: 60px;
+    background-color: black; 
+}
+
+#content-1 {
+    width:fit-content; 
+    height:fit-content; 
+    position: absolute;
+    left: 30%; 
+    top: 37%;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(240, 238, 238);
+}
+#content-2 {
+    width:fit-content; 
+    height:fit-content; 
+    position: absolute;
+    left: 48%; 
+    top: 58%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(240, 238, 238);
+}
+
+#content-3 {
+    width:fit-content; 
+    height:fit-content; 
+    position: absolute;
+    left: 59%; 
+    top: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(240, 238, 238);
+}
+
+.footer-decorate {
+    left: 63%;
+    top: 13%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    opacity:0.35;
+    margin:auto;
+    text-align: center; 
+}
+
+#chat-live {
+    height:fit-content;
+    width: 150px;
+    background-color: black;
+    border-right: 2px solid rgb(240, 238, 238);
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(240, 238, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+#join-our-loyalty-program {
+    float: left;
+    height: 40px;
+    width: 280px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+    color: rgb(240, 238, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+#special-offers {
+    float: right;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    padding-top:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(240, 238, 238);
+}
+
+#get-in-touch {
+    margin-top:20px;
+    float: left;
+    height: 20px;
+    width: 180px;
+    border-right: 2px solid rgb(240, 238, 238);
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(190, 35, 0);
+}
+
+#phone-number {
+    margin-top:20px;
+    float: left;
+    height: 20px;
+    width: 300px;
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(240, 238, 238);
+}
+
+#social-icon {
+    margin-top:20px;
+    float: right;
+    height: 20px;
+    width: 180px;
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(240, 238, 238);  
+}
